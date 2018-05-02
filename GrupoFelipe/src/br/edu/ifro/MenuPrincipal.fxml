@@ -7,10 +7,14 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.MenuPrincipalController">
-    <children>
-        <Button fx:id="button" layoutX="222.0" layoutY="151.0" onAction="#handleButtonAction" text="Click Me!" />
-        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
-      <JFXButton layoutX="74.0" layoutY="151.0" />
-    </children>
+<AnchorPane id="AnchorPane" prefHeight="248.0" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.MenuPrincipalController">
+   <children>
+      <TextField fx:id="txtNumero1" layoutX="23.0" layoutY="32.0" />
+      <TextField fx:id="txtNumero2" layoutX="23.0" layoutY="86.0" />
+      <TextField fx:id="txtResultado" layoutX="23.0" layoutY="179.0" />
+      <Label layoutX="23.0" layoutY="14.0" text="Primeiro Numero" />
+      <Label layoutX="23.0" layoutY="69.0" text="Segundo Numero" />
+      <Label layoutX="23.0" layoutY="162.0" text="Resultado" />
+      <Button fx:id="btnSoma" layoutX="205.0" layoutY="33.0" mnemonicParsing="false" onAction="#Somar" prefHeight="79.0" prefWidth="84.0" text="SOMAR" />
+   </children>
 </AnchorPane>
